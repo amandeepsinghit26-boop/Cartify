@@ -27,16 +27,9 @@ const ProductDetail = () => {
 
   return (
     <div className="max-w-4xl  mx-auto h-120 p-3 bg-[#0F3460] rounded-lg shadow-md relative mt-5">
-      {/* Back Button */}
-      <div
-        className="absolute top-3 left-6 flex items-center gap-1.5 cursor-pointer text-red-500"
-        onClick={() => navigate('/') }
-      >
-        <i className="ri-arrow-left-s-line text-2xl"></i>
-        <p>Back to All Products</p>
-      </div>
+     
 
-      <div className="flex flex-col md:flex-row h-100 items-end justify-center ">
+      <div className="flex flex-col md:flex-row h-100 ">
         {/* Left */}
         <div className="md:w-1/2 h-90  bg-white rounded-2xl p-4">
           <img
