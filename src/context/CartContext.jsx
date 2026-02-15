@@ -1,6 +1,6 @@
   import { ToastContainer, toast,Bounce } from 'react-toastify';
 import React, { useState, useEffect, createContext, useMemo } from "react";
-import { ProductData } from "../dataAPI/product";
+import { ProductData } from "../dataAPI/Product";
 export const CartDataContext = createContext();
 const CartContext = (props) => {
   const [products, setProducts] = useState([]);
